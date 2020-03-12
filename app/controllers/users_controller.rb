@@ -21,6 +21,9 @@ class UsersController < ApplicationController
         )
         render plain: "Hey a new user is create with the ID #{new_user.id}"
     end
+    def login
+        render plain: User.all.where(["email= ? and password= ?", params[:email], params[:password]]).exists?
+    end
 
     
 end
