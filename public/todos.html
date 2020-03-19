@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do Manager</title>
+    <link rel="stylesheet" type="text/css" href="todos-app.css">
+</head>
+<body class="TodoPage">
+    <main >
+        <article>
+            <h1 class="TodoPage-title">My To-do List</h1>
+ 
+            <input class="InputTodo-text" type="text" id="nexttodo" placeholder ="What's next?">
+            <input placeholder=" Due Date" class="InputTodo-date " type="text" onfocus="(this.type='date')" id="duedate">
+            <button class="InputTodo-submit" type="button" id="add" >Add</button>
+            <section >
+                <div class="TodoSection-main" >
+                    <h2 class="TodoSection-title"> Due Today</h2>
+                    <p class="TodoSection-count">0/4</p>
+                </div>
+                <div  class="TodoSection">
+                    <input class="TodoSection-checkbox" type="checkbox" id="todo1" name="todo1" value="Todo1">
+                    <div  class="TodoSection">
+                        <label class="Todo-title" for="todo1">Submit SaaS 201 project</label>    
+                        <p class="TodoSection-status">Overdue</p>
+                    </div>
+
+                </div>
+                <div class="TodoSection">
+                    <input class="TodoSection-checkbox" type="checkbox" id="todo2" name="todo2" value="Todo2">
+                    <div class="TodoSection">
+                        <label class="Todo-title" for="todo2">Call accountant</label>
+                        <img class="TodoSection-icon" src="delete.jpg" height="13px" width="13px"> 
+                    </div>
+                </div>
+            </section>
+            <section >
+                <div class="TodoSection-main" >
+                    <h2 class="TodoSection-title"> Due Tomorrow</h2>
+                    <p class="TodoSection-count">0/3</p>
+                </div>
+                <div class="TodoSection">
+                    <input class="TodoSection-checkbox" type="checkbox" id="todo3" name="todo3" value="Todo3">
+                    <div  class="TodoSection">
+                        <label class="Todo-title" for="todo3">Refill groceries</label>  
+                    </div>
+                </div>
+            </section>
+            <section >
+                <div class="TodoSection-main">
+                    <h2 class="TodoSection-title">Remaining</h2>
+                    <p class="TodoSection-count">0/3</p>
+                </div>
+                <div class="TodoSection">
+                    <input class="TodoSection-checkbox" type="checkbox" id="todo4" name="todo4" value="Todo4">
+                    <div  class="TodoSection">
+                        <label class="Todo-title" for="todo4">Do laundry</label>    
+                        <p class="TodoSection-remaining">Jan 21</p>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+</body>
+</html>

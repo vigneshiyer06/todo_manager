@@ -1,0 +1,106 @@
+.InputTodo-text{
+max-width: 190px;
+background: #FFFFFF;
+border: 1px solid #BFB8CC;
+border-radius: 4px;
+border-radius: 4px
+
+}
+.InputTodo-submit{
+background: #48BB78;
+border-radius: 4px;
+border-radius: 4px;
+font-family: sans-serif;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.1px;
+max-width: 72px;
+}
+.InputTodo-date{
+max-width: 93px;
+background: #FFFFFF;
+border: 1px solid #BFB8CC;
+border-radius: 4px;
+border-radius: 4px;
+}
+.TodoPage{
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.TodoPage-title {
+font-family: sans-serif;
+font-size: 20px;
+color: #453C52;
+letter-spacing: 0.14px;
+width: 200px;
+height: 27px;
+}
+.TodoSection{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+   
+}
+.TodoSection-main{
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.TodoSection-title{
+font-family: sans-serif;
+font-size: 14px;
+color: #453C52;
+letter-spacing: 0.1px;
+padding-top: 10px;
+
+
+}
+.TodoSection-count
+{
+font-family: sans-serif;
+font-size: 12px;
+color: #453C52;
+letter-spacing: 0.09px;
+width: 19px;
+height: 17px;
+padding-left: 10px;
+padding-top: 17px;
+
+
+}
+.TodoSection-status
+{
+padding-left: 10px;
+font-family: sans-serif;
+font-size: 12px;
+color: #C53030;
+letter-spacing: 0.09px;
+}
+.TodoSection-checkbox{
+background: #FFFFFF;
+border: 1px solid #BFB8CC;
+border-radius: 4px;
+border-radius: 4px;
+}
+.Todo-title{
+font-family: sans-serif;
+font-size: 14px;
+color: #453C52;
+letter-spacing: 0.1px;
+padding-left: 10px;
+
+}
+.TodoSection-icon{
+    border: 1px solid #453C52;
+    margin-left: 16px;
+}
+.TodoSection-remaining{
+font-family:sans-serif;
+font-size: 12px;
+color: #726A7E;
+letter-spacing: 0.09px;
+padding-left: 10px;
+padding-top: 3px;
+}
