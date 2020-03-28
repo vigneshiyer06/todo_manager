@@ -1,0 +1,35 @@
+<body class="TodoPage">
+    <main >
+        <article>
+            <h1 class="TodoPage-title">My To-do List</h1>
+            <section>
+                <input class="InputTodo-text" type="text" id="nexttodo" placeholder ="What's next?">
+                <input placeholder=" Due Date" class="InputTodo-date " type="text" onfocus="(this.type='date')" id="duedate">
+                <button class="InputTodo-submit" type="button" id="add" >Add</button>
+            </section>
+           
+            <%= render partial: "todo-section", locals: {
+                section_title: "Overdue",
+                todos: Todo.overdue,
+                show_due_date: true,
+                show_complete_todo: false               
+            }  %>
+            <%= render partial: "todo-section", locals: {
+                section_title: "Due Today",
+                todos: Todo.due_today,
+                show_due_date: false,
+                show_complete_todo: true
+            }  %>
+            <%= render partial: "todo-section", locals: {
+                section_title: "Due Later",
+                todos: Todo.due_later,
+                show_due_date:true,
+                show_complete_todo: true
+
+            }  %>
+            
+             
+
+        </article>
+    </main>
+</body>

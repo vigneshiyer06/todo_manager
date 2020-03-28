@@ -25,7 +25,7 @@ border-radius: 4px;
 }
 .TodoPage{
     max-width: 600px;
-    margin: 0 auto;
+    margin: 100px auto;
 
 }
 .TodoPage-title {
@@ -35,12 +35,17 @@ color: #453C52;
 letter-spacing: 0.14px;
 width: 200px;
 height: 27px;
+margin-top: 16px;
+font-weight: bold;
 }
 .TodoSection{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    
+display: flex;
+align-items: center;
+align-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: #453C52;
+letter-spacing: 0.1px;    
    
 }
 .TodoSection-main{
@@ -54,6 +59,8 @@ font-size: 14px;
 color: #453C52;
 letter-spacing: 0.1px;
 padding-top: 10px;
+font-weight: bold;
+
 
 
 }
@@ -70,26 +77,27 @@ padding-top: 17px;
 
 
 }
-.TodoSection-status
-{
-padding-left: 10px;
-font-family: sans-serif;
-font-size: 12px;
-color: #C53030;
-letter-spacing: 0.09px;
+.TodoItem-duedate{
+    font-size: 10px;
+    color: grey;
+    margin-left: 10px;
+}
 }
 .TodoSection-checkbox{
-background: #FFFFFF;
-border: 1px solid #BFB8CC;
+background: white;
+border: 1px solid grey;
 border-radius: 4px;
 border-radius: 4px;
+margin-left: 16px;
+
 }
 .Todo-title{
 font-family: sans-serif;
 font-size: 14px;
 color: #453C52;
 letter-spacing: 0.1px;
-padding-left: 10px;
+
+
 
 }
 .TodoSection-icon{
@@ -103,4 +111,11 @@ color: #726A7E;
 letter-spacing: 0.09px;
 padding-left: 10px;
 padding-top: 3px;
+}
+.TodoSection-ul{
+    padding-bottom: 5px;
+}
+.TodoSection-completed_task{
+    text-decoration:line-through ;
+    display: flex;
 }
