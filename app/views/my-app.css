@@ -1,24 +1,25 @@
-
 .TodoPage-title {
     font-size: 48px;
     line-height: 1.6;
-    color:darkred;
+    color: darkred;
 }
-.TodoSection-title{
+
+.TodoSection-title {
     font-size: 34px;
     line-height: 1.4;
-    color:#453C52;
+    color: #453C52;
     margin-left: 16px;
+    line-height: 1.4;
 }
-   line-height: 1.4;
-}
-.TodoSection-todo{
+
+.TodoSection-todo {
     font-size: 24px;
     line-height: 1.2;
     margin-left: 32px;
-    color:#453C52;
+    color: #453C52;
 }
-.TodoSection{
+
+.TodoSection {
     margin-bottom: 32px;
     margin-left: 32px;
     padding-top: 16px;
@@ -27,21 +28,22 @@
     padding-right: 16px;
     background: antiquewhite;
 }
-body{
+
+body {
     font-family: sans-serif;
     max-width: 600px;
-   /* margin: 0 auto;*/
+    /* margin: 0 auto;*/
     margin-top: 32px;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
 }
-.SplashImage
-{
+
+.SplashImage {
     max-width: 300px;
 }
-.TodoPageMain
-{
+
+.TodoPageMain {
     display: flex;
     align-items: center;
     justify-content: center;

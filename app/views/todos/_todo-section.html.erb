@@ -8,25 +8,23 @@
     <% todos.each do |todo|  %>
         <ul class="TodoSection-ul">     
             <div class="TodoSection">
-                <%if show_complete_todo%>
-                    <% if todo.completed==true%>
-                        <input class="TodoSection-checkbox" type="checkbox" id="todo1" value="1" checked>
-                    <% end %>
-                <%end%>
+                <% if todo.completed==true%>
+                    <input class="TodoSection-checkbox" type="checkbox" id="todo1" value="1" checked>
+                <% end %>
+                
                 <% if todo.completed==false%>
                     <input class="TodoSection-checkbox" type="checkbox" id="todo1" value="2" >
                 <% end %>
                 
             
                 <div  class="TodoSection">
-                    <%if show_complete_todo%>
-                        <% if todo.completed==true%>
-                            <p class="TodoSection-completed_task"><%= todo.todo_text%></p>
-                            <% if show_due_date%>
-                                <p class="TodoItem-duedate"> <%= todo.due_date.to_s(:short)%></p>
-                            <% end %>
+                    <% if todo.completed==true%>
+                        <p class="TodoSection-completed_task"><%= todo.todo_text%></p>
+                        <% if show_due_date%>
+                            <p class="TodoItem-duedate"> <%= todo.due_date.to_s(:short)%></p>
                         <% end %>
                     <% end %>
+                    
                     
                     <div class="TodoSection ">
                         <%if todo.completed==false%>

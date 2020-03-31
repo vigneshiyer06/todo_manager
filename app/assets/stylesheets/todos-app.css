@@ -1,121 +1,122 @@
-.InputTodo-text{
-max-width: 190px;
-background: #FFFFFF;
-border: 1px solid #BFB8CC;
-border-radius: 4px;
-border-radius: 4px
+.InputTodo-text {
+    max-width: 190px;
+    background: #ffffff;
+    border: 1px solid #bfb8cc;
+    border-radius: 4px;
+    border-radius: 4px;
+}
 
+.InputTodo-submit {
+    background: #48bb78;
+    border-radius: 4px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.1px;
+    max-width: 72px;
 }
-.InputTodo-submit{
-background: #48BB78;
-border-radius: 4px;
-border-radius: 4px;
-font-family: sans-serif;
-font-size: 14px;
-color: #FFFFFF;
-letter-spacing: 0.1px;
-max-width: 72px;
+
+.InputTodo-date {
+    max-width: 93px;
+    background: #ffffff;
+    border: 1px solid #bfb8cc;
+    border-radius: 4px;
+    border-radius: 4px;
 }
-.InputTodo-date{
-max-width: 93px;
-background: #FFFFFF;
-border: 1px solid #BFB8CC;
-border-radius: 4px;
-border-radius: 4px;
-}
-.TodoPage{
+
+.TodoPage {
     max-width: 600px;
     margin: 100px auto;
+}
 
-}
 .TodoPage-title {
-font-family: sans-serif;
-font-size: 20px;
-color: #453C52;
-letter-spacing: 0.14px;
-width: 200px;
-height: 27px;
-margin-top: 16px;
-font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #453c52;
+    letter-spacing: 0.14px;
+    width: 200px;
+    height: 27px;
+    margin-top: 16px;
+    font-weight: bold;
 }
-.TodoSection{
-display: flex;
-align-items: center;
-align-content: center;
-font-family: sans-serif;
-font-size: 14px;
-color: #453C52;
-letter-spacing: 0.1px;    
-   
+
+.TodoSection {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #453c52;
+    letter-spacing: 0.1px;
 }
-.TodoSection-main{
+
+.TodoSection-main {
     align-content: center;
     align-items: center;
     display: flex;
 }
-.TodoSection-title{
-font-family: sans-serif;
-font-size: 14px;
-color: #453C52;
-letter-spacing: 0.1px;
-padding-top: 10px;
-font-weight: bold;
 
-
-
+.TodoSection-title {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #453c52;
+    letter-spacing: 0.1px;
+    padding-top: 10px;
+    font-weight: bold;
 }
-.TodoSection-count
-{
-font-family: sans-serif;
-font-size: 12px;
-color: #453C52;
-letter-spacing: 0.09px;
-width: 19px;
-height: 17px;
-padding-left: 10px;
-padding-top: 17px;
 
-
+.TodoSection-count {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #453c52;
+    letter-spacing: 0.09px;
+    width: 19px;
+    height: 17px;
+    padding-left: 10px;
+    padding-top: 17px;
 }
-.TodoItem-duedate{
+
+.TodoItem-duedate {
     font-size: 10px;
     color: grey;
     margin-left: 10px;
 }
-}
-.TodoSection-checkbox{
-background: white;
-border: 1px solid grey;
-border-radius: 4px;
-border-radius: 4px;
-margin-left: 16px;
 
-}
-.Todo-title{
-font-family: sans-serif;
-font-size: 14px;
-color: #453C52;
-letter-spacing: 0.1px;
-
-
-
-}
-.TodoSection-icon{
-    border: 1px solid #453C52;
+.TodoSection-checkbox {
+    background: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    border-radius: 4px;
     margin-left: 16px;
 }
-.TodoSection-remaining{
-font-family:sans-serif;
-font-size: 12px;
-color: #726A7E;
-letter-spacing: 0.09px;
-padding-left: 10px;
-padding-top: 3px;
+
+.Todo-title {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #453c52;
+    letter-spacing: 0.1px;
 }
-.TodoSection-ul{
+
+.TodoSection-icon {
+    border: 1px solid #453c52;
+    margin-left: 16px;
+}
+
+.TodoSection-remaining {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #726a7e;
+    letter-spacing: 0.09px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.TodoSection-ul {
     padding-bottom: 5px;
 }
-.TodoSection-completed_task{
-    text-decoration:line-through ;
+
+.TodoSection-completed_task {
+    text-decoration: line-through;
     display: flex;
 }
