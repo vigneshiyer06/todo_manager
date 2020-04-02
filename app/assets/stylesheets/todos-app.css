@@ -1,9 +1,10 @@
 .InputTodo-text {
-    max-width: 190px;
+    max-width: 200px;
     background: #ffffff;
     border: 1px solid #bfb8cc;
     border-radius: 4px;
     border-radius: 4px;
+    height: 20px;
 }
 
 .InputTodo-submit {
@@ -15,6 +16,8 @@
     color: #ffffff;
     letter-spacing: 0.1px;
     max-width: 72px;
+    height: 30px;
+    width: max-content;
 }
 
 .InputTodo-date {
@@ -23,6 +26,7 @@
     border: 1px solid #bfb8cc;
     border-radius: 4px;
     border-radius: 4px;
+    height: 20px;
 }
 
 .TodoPage {
@@ -84,11 +88,16 @@
 }
 
 .TodoSection-checkbox {
-    background: white;
     border: 1px solid grey;
     border-radius: 4px;
     border-radius: 4px;
     margin-left: 16px;
+    height: 20px;
+    background-color: blueviolet;
+}
+
+.container input:checked~.TodoSection-checkbox {
+    background-color: #2196F3;
 }
 
 .Todo-title {
@@ -99,8 +108,9 @@
 }
 
 .TodoSection-icon {
-    border: 1px solid #453c52;
-    margin-left: 16px;
+    height: 20px;
+    width: 16px;
+    margin-left: 10px;
 }
 
 .TodoSection-remaining {
