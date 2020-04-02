@@ -2,11 +2,11 @@
     <main >
         <article>
             <h1 class="TodoPage-title">My To-do List</h1>
-            <section>
-                <input class="InputTodo-text" type="text" id="nexttodo" placeholder ="What's next?">
-                <input placeholder=" Due Date" class="InputTodo-date " type="text" onfocus="(this.type='date')" id="duedate">
-                <button class="InputTodo-submit" type="button" id="add" >Add</button>
-            </section>
+            <form action="/todos" method="POST">
+                <input class="InputTodo-text" type="text" id="nexttodo" placeholder ="What's next?" name="todo_text">
+                <input placeholder=" Due Date" class="InputTodo-date " type="text" onfocus="(this.type='date')" id="duedate" name="due_date">
+                <button class="InputTodo-submit" type="submit" id="Add" >Add</button>
+            </form>
            
             <%= render partial: "todo-section", locals: {
                 section_title: "Overdue",
