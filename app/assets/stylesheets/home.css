@@ -1,0 +1,19 @@
+.Home-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.Home-authenticate {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.Homepage {
+    width: 800px;
+    height: 100%;
+    margin: 100px auto;
+    font-family: sans-serif;
+}
