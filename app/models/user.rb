@@ -1,10 +1,10 @@
-class User < ActiveRecord::Base
+class User < ApplicationRecord
 
-    def to_pleasant_string
+    #def to_pleasant_string
     
-        "#{id}.  #{name}  #{email}  #{password}"
+      #  "#{id}.  #{name}  #{email}  #{password}"
         
-    end
+   # end
     
 
 end
