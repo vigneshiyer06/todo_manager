@@ -48,7 +48,8 @@
     padding: 10px;
     background-color: lightgray;
     margin-bottom: 10px;
-    width: 600px;
+    width: 575px;
     display: flex;
     justify-content: space-between;
+    border-radius: 5px;
 }
