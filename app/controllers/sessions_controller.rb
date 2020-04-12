@@ -10,7 +10,9 @@ class SessionsController < ApplicationController
             session[:current_user_id] = user.id
             redirect_to "/"
         else
-            render plain: "Incorrect Password"
+            
+            redirect_to sessions_path, warning: "Invalid User Id or Password"
+            
         end
     end
     
