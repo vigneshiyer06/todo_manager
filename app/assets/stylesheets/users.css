@@ -49,4 +49,6 @@
     background-color: lightgray;
     margin-bottom: 10px;
     width: 600px;
+    display: flex;
+    justify-content: space-between;
 }
