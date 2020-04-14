@@ -16,7 +16,7 @@
        <%= link_to "Sign-out", destroy_session_path, method: "delete"%>
       </p>
     <% end %>
-      <%  flash.each do |name, msg| %>
+      <%=  flash[:error] %>
         <div class='alert alert-<%= name %>'>
           <%= msg %>
         </div>

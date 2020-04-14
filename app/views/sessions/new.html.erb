@@ -1,7 +1,7 @@
 <body class="NewUsers">
     <h2 class="NewUsers-title">Sign-In! </h2>
     <section class="UsersNew">
-        <%= form_with url: sessions_path do |form|%>
+        <%= form_with url: sessions_path, method: "Post" do |form|%>
             <div class="Form-section">
                 <p> Email: </p>
                 <%= form.email_field :email, class: "Form-input", placeholder: "Enter Email ID" %>
