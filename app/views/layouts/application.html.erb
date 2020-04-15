@@ -16,10 +16,10 @@
        <%= link_to "Sign-out", destroy_session_path, method: "delete"%>
       </p>
     <% end %>
-      <%=  flash[:error] %>
-        <div class='alert alert-<%= name %>'>
-          <%= msg %>
-        </div>
+    <% if flash[:error] %>
+      <p class="Flash-error">
+        <%= flash[:error]%>
+      </p> 
     <% end %>
   
 

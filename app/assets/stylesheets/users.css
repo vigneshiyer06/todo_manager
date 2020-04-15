@@ -53,3 +53,14 @@
     justify-content: space-between;
     border-radius: 5px;
 }
+
+.Flash-error {
+    background-color: rgb(226, 55, 55);
+    max-width: max-content;
+    padding: 2vw 1.5vw;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 0.75vw;
+    margin-bottom: 5vw;
+}

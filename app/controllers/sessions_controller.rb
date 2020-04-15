@@ -10,8 +10,8 @@ class SessionsController < ApplicationController
       session[:current_user_id] = user.id
       redirect_to "/"
     else
-      flash[:error] = "Your login attempt is Invaled. Please retry"
-      redirect_to new_sessions_path, warning: "Invalid User Id or Password"
+      flash[:error] = "Your login attempt is Invalid. Please retry"
+      redirect_to new_sessions_path
     end
   end
 
