@@ -57,10 +57,10 @@
 .Flash-error {
     background-color: rgb(226, 55, 55);
     max-width: max-content;
-    padding: 2vw 1.5vw;
+    padding: 1.25vw 1.5vw;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
     border-radius: 0.75vw;
-    margin-bottom: 5vw;
+    margin-bottom: 0.75vw;
 }
