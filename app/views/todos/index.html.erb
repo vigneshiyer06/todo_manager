@@ -2,10 +2,10 @@
     <main >
         <article>
             <h1 class="TodoPage-title">My To-do List</h1>
-            <%= form_with(url: "/todos" , method: "post", class: "Add_Todo") do %>
-                <input class="InputTodo-text" type="text" id="nexttodo" placeholder ="What's next?" name="todo_text">
-                <input placeholder=" Due Date" class="InputTodo-date " type="text" onfocus="(this.type='date')" id="duedate" name="due_date" >
-                <button class="InputTodo-submit" type="submit" id="Add" >Add</button>
+            <%= form_with(url: "/todos" , method: "post", class: "Add_Todo") do |todo| %>
+                <%= todo.text_field :todo_text, placeholder: "What's Next ?" ,class: "InputTodo-text" , required: true%>
+                <%= todo.date_field :due_date, placeholder: "Due Date?" ,class: "InputTodo-date" , required: true%>
+                <%= todo.submit :"Add", class: "InputTodo-submit" %>
             <% end %>
            
             <%= render partial: "todo-section", locals: {
